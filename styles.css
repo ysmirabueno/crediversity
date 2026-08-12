@@ -24,6 +24,12 @@
     text-decoration: underline;
 }
 
+#journey {
+    color: green;
+    font-weight: bold;
+    font-style: italic;
+}
+
 .description {
     background-color: green;
     color: white;
@@ -45,8 +51,24 @@
     font-style: italic;
 }
 
+.description button {
+    background-color: white;
+    color: green;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.description button:hover {
+    background-color: lightgray;
+    color: green;
+    font-weight: bold;
+    font-style: italic;
+}
+
 .description a:hover {
     color: white;
+    font-weight: bold;
+    font-style: italic;
     text-decoration: underline;
 }
 

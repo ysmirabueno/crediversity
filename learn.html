@@ -52,7 +52,7 @@
 <div class="container">
     <div class="row">
         <div class="col">
-          <img src="images/creditcard.jpg" alt="Credit Card" class="img-fluid">
+          <img src="images/creditcard_learn.jpeg" alt="Credit Card" class="img-fluid">
         </div>
 
         <div class="col description">
@@ -108,10 +108,78 @@
 <br>
 <br>
 
+<div class="container">
+    <div class="row">
+        <div class="col description">
+        <h2>Myth or Fact? #1</h2>
+        <p>Credit cards are only for people with perfect credit scores.</p>
+        <button type="button" class="btn btn-light" onclick="revealAnswer()">Reveal Answer</button>
+            
+            <!-- Hidden area where the answer will appear -->
+            <div id="answerContainer" class="mt-3" style="display: none;">
+                <h4><strong>Answer: Myth!</strong></h4>
+                <p>You don't need a perfect credit score to get a credit card. There are many cards designed for people with average, fair, or even building credit (like secured cards).</p>
+            </div>
+        </div>
+        <div class="col" id="creditScoreImage">
+            <img src="images/creditscore.png" alt="Credit Score Chart" class="img-fluid">
+        </div>
+    </div>
+</div>
+
+<br>
+<br>
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <img src="images/creditlimit.png" alt="High Credit Limit" class="img-fluid">
+        </div>
+        <div class="col description">
+        <h2>Myth or Fact? #2</h2>
+        <p>A high credit limit is a good thing.</p>
+        <button type="button" class="btn btn-light" onclick="revealAnswer2()">Reveal Answer</button>
+            
+            <!-- Hidden area where the answer will appear -->
+            <div id="answerContainer2" class="mt-3" style="display: none;">
+                <h4><strong>Answer: Fact!</strong></h4>
+                <p>If you manage your credit cards wisely, a high credit limit can be an advantage. Thirty percent of your credit score is based on your debt-to-credit ratio (the amount you owe in proportion to your total credit limit). If you have a high credit limit and you keep your balances low, your debt-to-credit ratio is also low, which can help your credit score.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<br>
+<br>
+
+<div class="container">
+    <div class="row">
+        <div class="col description">
+        <h2>Myth or Fact? #3</h2>
+        <p>You may able to upgrade or downgrade your card without a new inquiry or application.</p>
+        <button type="button" class="btn btn-light" onclick="revealAnswer3()">Reveal Answer</button>
+            
+            <!-- Hidden area where the answer will appear -->
+            <div id="answerContainer3" class="mt-3" style="display: none;">
+                <h4><strong>Answer: Fact!</strong></h4>
+                <p>Yes, this is called a "Product Change," and you can often upgrade or downgrade your credit card without a new credit inquiry, especially if you are a loyal customer or if the change is made within a short period of time. Although it depends
+                    on the credit card provider, it does not hurt to contact them.
+                </p>
+            </div>
+        </div>
+        <div class="col" id="productChangeImage">
+            <img src="images/capitalone_cards.png" alt="Product Change" class="img-fluid">
+        </div>
+    </div>
+</div>
+
+<br>
+<br>
+
 <footer>
     <p>Crediversity &#169; 2026</p>
 </footer>
 
-
+<script src="script.js"></script>
     </body>
 </html>
